@@ -10,6 +10,14 @@
     align-items: flex-start;
   }
 
+  .contenidoPrincipal-cursos {
+	flex-direction: column;
+  }
+  
+  .contenidoPrincipal-cursos-link {
+	width: 100%;
+  }
+
   .headerPrincipal-nav-link {
     font-weight: bold;
     color: white;
@@ -79,6 +87,18 @@
     align-items: center;
     justify-content: space-between;
   }
+
+  .contenidoPrincipal-cursos {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+  }
+  
+  .contenidoPrincipal-cursos-link {
+	display: flex;
+	border-radius: 10px;
+	width: 23%;
+  }
 }
 
 @media (min-width: 1000px) {
@@ -126,5 +146,17 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+  }
+
+  .contenidoPrincipal-cursos {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+  }
+  
+  .contenidoPrincipal-cursos-link {
+	display: flex;
+	border-radius: 10px;
+	width: 23%;
   }
 }
