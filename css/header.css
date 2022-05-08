@@ -20,12 +20,12 @@
 }
 
 .headerPrincipal-nav-link {
-	padding: 5px;
+	padding: 8px;
 	margin-bottom: 10px;
 	color: #9799A6;
 	background-color: #FFF;
 	text-decoration: none;
-	transition: .5s;
+	transition: .4s;
 	display: block;
-	/* border-bottom: 1px solid black; */
+	/* border: 2px solid black; */
 }

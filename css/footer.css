@@ -13,6 +13,11 @@
 	margin-top: 10px;
 }
 
+.rodapePrincipal-navMap-link:hover {
+	color: #ec6e5a;
+	font-style: italic;
+  }
+
 .rodapePrincipal-navMap-link {
 	font-size: .9em;
 }
@@ -66,7 +71,7 @@
 	background-color: #4DBA7A;
 	color: #FFF;
 	cursor: pointer;
-	
+	padding: 10px;
 }
 
 .rodapePrincipal-contatoForm-submit,
@@ -79,4 +84,5 @@
 
 .rodapePrincipal-contatoForm-legend {
 	margin-bottom: 10px;
+	font-weight: bold;
 }
