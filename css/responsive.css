@@ -1,115 +1,130 @@
-@media(min-width: 0px) {
-	.headerPrincipal-nav-link {
-		font-weight: bold;
-		color: black;
-		border-radius: 5px;
-		font-size: 0.85rem;
-		text-align: center;
-		/* border: 2px solid black; */
-	}
+@media (min-width: 0px) {
+  .headerPrincipal .container {
+    align-items: initial;
+    flex-direction: column;
+  }
 
-	.headerPrincipal-nav {
-		display: flex;
-	}
+  .headerPrincipal-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
 
-	.headerPrincipal-nav-link:hover {
-		color: #FFF;
-		background-color: black;
-		text-align: center;
-	}
+  .headerPrincipal-nav-link {
+    font-weight: bold;
+    color: white;
+    font-size: 0.85rem;
+    text-align: center;
+    margin: 10px 10px 3px 0;
+    padding-left: 10px;
+    border-left: 3px solid white;
+  }
+
+  .headerPrincipal-nav-link:hover {
+    color: greenyellow;
+    border-left: 3px solid yellowgreen;
+  }
 }
 
-@media(min-width: 769px) {
+@media (min-width: 769px) {
+  .container {
+    width: 85%;
+  }
 
-	.container {
-		width: 85%;	
-	}
+  .subtitulo {
+    text-align: left;
+  }
 
-	.subtitulo {
-		text-align: left;
-	}
+  .headerPrincipal-nav-link {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-size: 0.85rem;
+    margin: 10px 10px 3px 0;
+    padding-left: 10px;
+    border-left: 3px solid white;
+  }
 
-	.headerPrincipal-nav-link {
-		font-weight: bold;
-		color: black;
-		font-size: 1rem;
-		border-radius: 5px;
-		text-align: center;
-		/* border: 2px solid black; */
-	}
+  .headerPrincipal-nav-link:hover {
+    color: greenyellow;
+    border-left: 3px solid yellowgreen;
+  }
 
-	.headerPrincipal-nav-link:hover {
-		color: #FFF;
-		background-color: black;
-		text-align: center;
-	}
+  .headerPrincipal-titulo {
+    margin: 0;
+  }
 
-	.headerPrincipal-titulo {
-		margin: 0;
-	}
+  .headerPrincipal-nav {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+  }
 
-	.headerPrincipal-nav {
-		width: auto;
-	}
+  .rodapePrincipal-contatoForm {
+    margin-top: 0;
+    text-align: left;
+  }
 
-	.headerPrincipal-nav-link {
-		width: auto;
-		margin: 0 0 0 10px;
-		text-align: center;
-	}
+  .contenidoPrincipal-cursos-link:nth-child(3n) {
+    margin-right: 0;
+  }
 
-	.rodapePrincipal-contatoForm {
-		margin-top: 0;
-		text-align: left;
-	}
+  .contenidoPrincipal-cursos-link:nth-child(3n + 1) {
+    margin-left: 0;
+  }
 
-	.contenidoPrincipal-cursos-link:nth-child(3n) {
-		margin-right: 0;
-	}
-
-	.contenidoPrincipal-cursos-link:nth-child(3n+1) {
-		margin-left: 0;
-	}
-
+  .headerPrincipal .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
 
-@media(min-width: 1000px) {
-	.contenidoPrincipal-cursos-link {
-		margin: 1.333%;
-	}
+@media (min-width: 1000px) {
+  .contenidoPrincipal-cursos-link {
+    margin: 1.333%;
+  }
 
-	.contenidoPrincipal-cursos-link:nth-child(3n) {
-		margin-right: 1.33%;
-	}
+  .contenidoPrincipal-cursos-link:nth-child(3n) {
+    margin-right: 1.33%;
+  }
 
-	.contenidoPrincipal-cursos-link:nth-child(3n+1) {
-		margin-left: 1.333%;
-	}
+  .contenidoPrincipal-cursos-link:nth-child(3n + 1) {
+    margin-left: 1.333%;
+  }
 
-	.contenidoPrincipal-cursos-link:nth-child(4n) {
-		margin-right: 0;
-	}
+  .contenidoPrincipal-cursos-link:nth-child(4n) {
+    margin-right: 0;
+  }
 
-	.contenidoPrincipal-cursos-link:nth-child(4n+1) {
-		margin-left: 0;
-	}
+  .contenidoPrincipal-cursos-link:nth-child(4n + 1) {
+    margin-left: 0;
+  }
 
-	.videoSobre-sobre {
-		margin-left: 1.5em;
-	}
+  .videoSobre-sobre {
+    margin-left: 1.5em;
+  }
 
-	.headerPrincipal-nav-link {
-		font-weight: bold;
-		color: black;
-		font-size: 1.2rem;
-		border-radius: 5px;
-		text-align: center;
-		/* border: 2px solid black; */
-	}
+  .headerPrincipal-nav-link {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-size: 0.85rem;
+    margin: 10px 10px 3px 0;
+    padding-left: 10px;
+    border-left: 3px solid white;
+  }
 
-	.headerPrincipal-nav-link:hover {
-		color: #FFF;
-		background-color: black;
-		text-align: center;
-	}
+  .headerPrincipal-nav-link:hover {
+    color: greenyellow;
+    border-left: 3px solid yellowgreen;
+  }
+
+  .headerPrincipal .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
 }

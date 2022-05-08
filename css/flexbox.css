@@ -10,13 +10,12 @@
 } */
 
 .headerPrincipal .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  align-items: initial;
+  flex-direction: column;
 }
 
-.headerPrincipal-nav {
-  display: flex;
+.headerPrincipal-nav-link {
+  flex-direction: column;
 }
 
 .rodapePrincipal-patrocinadores .container {
@@ -36,7 +35,7 @@
   width: 25%;
 }
 
-.rodapePrincipal-contatoForm-fieldset{
+.rodapePrincipal-contatoForm-fieldset {
   display: flex;
 }
 
