@@ -21,16 +21,41 @@
   .headerPrincipal-nav-link {
     font-weight: bold;
     color: white;
-    font-size: 0.85rem;
+    font-size: 1rem;
     text-align: center;
-    margin: 10px 10px 3px 0;
-    padding-left: 10px;
-    border-left: 3px solid white;
+    margin: 1px 10px 0 0;
+    padding-left: 3px;
   }
 
   .headerPrincipal-nav-link:hover {
-    color: greenyellow;
-    border-left: 3px solid yellowgreen;
+    color: yellow;
+  }
+
+  .rodapePrincipal-navMap-list {
+	height: auto;
+	flex-wrap: nowrap;
+  }
+
+  .rodapePrincipal-patrocinadores .container {
+	  flex-direction: column;
+  }
+
+  .rodapePrincipal-contatoForm {
+	  width: 100%;
+  }
+
+  .rodapePrincipal-patrocinadores-list {
+	  align-items: center;
+	  width: 100%;
+	  margin: 0;
+  }
+
+  .rodapePrincipal-contatoForm-legend {
+	text-align: center;
+  }
+
+  .rodapePrincipal-contatoForm-fieldset {
+	  justify-content: center;
   }
 }
 
@@ -50,12 +75,10 @@
     font-size: 0.85rem;
     margin: 10px 10px 3px 0;
     padding-left: 10px;
-    border-left: 3px solid white;
   }
 
   .headerPrincipal-nav-link:hover {
-    color: greenyellow;
-    border-left: 3px solid yellowgreen;
+    color: yellow;
   }
 
   .headerPrincipal-titulo {
@@ -99,6 +122,29 @@
 	border-radius: 10px;
 	width: 23%;
   }
+
+  .rodapePrincipal-navMap-list {
+	display: flex;
+	flex-direction: column;
+	height: 250px;
+	flex-wrap: wrap;
+  }
+
+  .rodapePrincipal-patrocinadores .container {
+	flex-direction: row;
+}
+
+.rodapePrincipal-contatoForm {
+	width: 25%;
+}
+
+.rodapePrincipal-patrocinadores-list {
+	align-items: center;
+}
+
+.rodapePrincipal-contatoForm-legend {
+	text-align: left;
+  }
 }
 
 @media (min-width: 1000px) {
@@ -133,12 +179,10 @@
     font-size: 0.85rem;
     margin: 10px 10px 3px 0;
     padding-left: 10px;
-    border-left: 3px solid white;
   }
 
   .headerPrincipal-nav-link:hover {
-    color: greenyellow;
-    border-left: 3px solid yellowgreen;
+    color: yellow;
   }
 
   .headerPrincipal .container {
@@ -158,5 +202,28 @@
 	display: flex;
 	border-radius: 10px;
 	width: 23%;
+  }
+
+  .rodapePrincipal-navMap-list {
+	display: flex;
+	flex-direction: column;
+	height: 250px;
+	flex-wrap: wrap;
+  }
+
+  .rodapePrincipal-patrocinadores .container {
+	flex-direction: row;
+}
+
+.rodapePrincipal-contatoForm {
+	width: 25%;
+}
+
+.rodapePrincipal-patrocinadores-list {
+	align-items: center;
+}
+
+.rodapePrincipal-contatoForm-legend {
+	text-align: left;
   }
 }

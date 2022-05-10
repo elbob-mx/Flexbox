@@ -14,8 +14,9 @@
 }
 
 .rodapePrincipal-navMap-link:hover {
-  color: #ec6e5a;
+  color: yellow;
   font-style: italic;
+  font-weight: bold;
 }
 
 .rodapePrincipal-navMap-link {
