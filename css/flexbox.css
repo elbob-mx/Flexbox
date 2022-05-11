@@ -1,14 +1,3 @@
-/* .headerPrincipal-titulo {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.headerPrincipal-nav {
-  display: inline-block;
-  vertical-align: middle;
-  margin-left: 90%;
-} */
-
 .headerPrincipal .container {
   align-items: initial;
   flex-direction: column;
@@ -46,10 +35,6 @@
   flex-wrap: wrap;
 }
 
-/* .contenidoPrincipal .container {
-  display: flex;
-} */
-
 .contenidoPrincipal-cursos {
   display: flex;
   flex-wrap: wrap;
@@ -63,4 +48,29 @@
 
 .rodapePrincipal-contatoForm {
   width: 25%;
+}
+
+.videoSobre .container {
+  display: flex;
+}
+
+.videoSobre-sobre {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 4;
+  justify-content: center;
+  text-align: center;
+}
+
+/* .videoSobre-sobre .videoSobre-sobre-title {
+  flex-shrink: 2;
+} */
+
+.videoSobre-video {
+  flex-grow: 2;
+  flex-shrink: 2;
+}
+
+.videoSobre-sobre-list {
+  flex-grow: 2;
 }
