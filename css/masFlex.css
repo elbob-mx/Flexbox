@@ -1,0 +1,46 @@
+html {
+    height: 100%;
+}
+
+.flexContainer:last-child {
+    margin-top: 2em;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #0D0221;
+}
+
+div {
+    height: 50px;
+    width: 50px;
+}
+
+div:nth-child(1) {background-color: #FF00C1; height: 100px; width: 100px;}
+div:nth-child(2) {background-color: #9600FF;}
+div:nth-child(3) {background-color: #4900FF;}
+div:nth-child(4) {background-color: #00B8FF;}
+
+div:hover {
+    background-color: crimson;
+    box-shadow: 0px 2px 50px 1px crimson;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+
+/* FLEX */
+
+.flexContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.flexItem {
+    flex-grow: 2;
+}
