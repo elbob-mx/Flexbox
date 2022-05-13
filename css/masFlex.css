@@ -30,7 +30,7 @@ div:hover {
     flex-grow: 1;
     flex-shrink: 1;
     height: 5vh;
-    transition: 3s;
+    transition: 0.5s;
 }
 
 div:active {
@@ -39,8 +39,8 @@ div:active {
     flex-grow: 3;
     flex-shrink: 1.3;
     height: 100vh;
-    transition: 0.5s;
-    border-radius: 100%;
+    transition: 0.8s;
+    /* border-radius: 10%; */
 }
 
 
@@ -56,8 +56,15 @@ div:active {
 
 .flexItem {
     flex-grow: 1;
+    flex-shrink: 2;
 }
 
 .flexItem__primeraRow--1 {
-    flex-grow: 3;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
+
+/* .flexItem__primeraRow--3 {
+    flex-grow: 1;
+    flex-shrink: 2;
+} */
