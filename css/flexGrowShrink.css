@@ -1,0 +1,62 @@
+html, body {
+    height: 100vh;
+    width: 100vw;
+    background-color: purple;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10%;
+    width: 80%;
+}
+
+.container:hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10%;
+    width: 80vw;
+}
+
+.flexContainer {
+    display: flex;
+    width: 100vw;
+    height: 35vh;
+    background-color: purple;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid white;
+  }
+
+  .flexItem {
+    width: 200px;
+    height: 200px;
+    background-color: lightseagreen;
+    border: 4px solid white;
+    display: flex;  
+  }
+
+  .flexItem:first-child {
+    flex-shrink: 2;
+    background-color: lightpink;
+  }
+
+  .flexItem:nth-child(4) {
+    flex-basis: 250px;
+    flex-grow: 1;
+    flex-shrink: 3;
+    background-color: darkorchid;
+    font-family: monospace;
+    font-size: 2rem;
+  }
+  
+  .flexItem:hover {
+    background-color: red;
+  }
+
+  .flexItem:active {
+    background-color: bisque;
+  }
